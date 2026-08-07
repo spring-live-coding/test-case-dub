@@ -102,6 +102,7 @@
       "sharp": "0.35.0",
       "shell-quote@1": "1.9.0",
       "socket.io-parser@4": "4.2.7",
+      "socks@2": "2.8.9",
       "storybook@8": "8.6.17",
       "tar-fs@2": "2.1.4",
       "tmp@0.2": "0.2.7",
