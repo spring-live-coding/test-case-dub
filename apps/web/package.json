@@ -96,7 +96,7 @@
     "jose": "^6.1.0",
     "js-cookie": "^3.0.7",
     "json-2-csv": "^5.5.11",
-    "jsondiffpatch": "^0.7.3",
+    "jsondiffpatch": "^0.7.6",
     "jszip": "^3.10.1",
     "linkify-react": "4.3.2",
     "lru-cache": "^11.2.2",
@@ -105,7 +105,7 @@
     "minimatch": "^10.2.3",
     "motion": "^12.23.22",
     "nanoid": "^5.0.9",
-    "next": "15.5.21",
+    "next": "15.5.24",
     "next-auth": "4.24.15",
     "next-plausible": "^4.0.0",
     "next-safe-action": "^8.0.11",
@@ -164,7 +164,7 @@
     "typescript": "^5.4.4",
     "vite": "7.3.5",
     "vite-tsconfig-paths": "5.1.4",
-    "vitest": "4.1.0"
+    "vitest": "4.1.11"
   },
   "browser": {
     "crypto": false
