@@ -111,6 +111,7 @@
       "sha.js@2": "2.4.12",
       "sharp@0": "0.35.4",
       "shell-quote@1": "1.9.0",
+      "source-map-js@1": "1.2.2",
       "socket.io-parser@4": "4.2.7",
       "storybook@8": "8.6.17",
       "tar-fs@2": "2.1.4",
