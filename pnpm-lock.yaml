@@ -11,7 +11,7 @@ overrides:
   '@grpc/grpc-js@1': 1.12.7
   '@hono/node-server@1': 1.19.15
   '@isaacs/brace-expansion@5': 5.0.1
-  '@modelcontextprotocol/sdk@1': 1.31.0
+  '@modelcontextprotocol/sdk@1': 1.32.0
   '@protobufjs/utf8@1': 1.1.1
   '@tiptap/core@3': 3.30.5
   '@vitest/mocker@4': 4.1.11
@@ -42,7 +42,7 @@ overrides:
   form-data@3: 3.0.5
   form-data@4: 4.0.6
   glob@10: 10.5.0
-  hono@4: 4.13.5
+  hono@4: 4.13.11
   http-proxy-middleware@2: 2.0.10
   ip-address@10: 10.7.1
   js-yaml@3: 3.15.2
@@ -2302,7 +2302,7 @@ packages:
     resolution: {integrity: sha512-Za2ai6TLdKjUvnur+eenO6nuYYipVAEhyCAdaV8IRvmU9kK8crOZUSYvIXn72E4f8fJqyAbpcJuTsYYmZp9Deg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
-      hono: 4.13.5
+      hono: 4.13.11
 
   '@hubspot/api-client@12.0.1':
     resolution: {integrity: sha512-lMxDEuhaP1KDxo0Z/t+3xAT/wzVaQCZ9ThSewj9qCMkhBMYA2ABWLOY/I+huQCERuMqkqwmMBx/NOCspBlGQGg==}
@@ -2839,8 +2839,8 @@ packages:
     resolution: {integrity: sha512-w7mXja6hSNL6li7BHgY6LQLnBJ9RIxWkmZ16y2MCOr3w6MlR7k2ZcTxro6vEJrUoshhyoOqhcFCyD1P0ckBuRw==}
     engines: {node: '>=22.0.0'}
 
-  '@modelcontextprotocol/sdk@1.31.0':
-    resolution: {integrity: sha512-UvTMgnNlnIBO/22ob2RcVGDlcvOslQs8T59+FTGdA0L27a39fdGF/EDETNtDVK4DZGpwomlsYpRdA8UXcVL/pw==}
+  '@modelcontextprotocol/sdk@1.32.0':
+    resolution: {integrity: sha512-8BviX/hK4Gd2eL1KdTwm0gfl4d3wdoErW0Jd00h6nomUAtk6IJk5vwQJc6kfWtJTzN5OEV/lgIiJKI8fiDGAlA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@cfworker/json-schema': ^4.1.1
@@ -8386,8 +8386,8 @@ packages:
     resolution: {integrity: sha512-eSmmWE5bZTK2Nou4g0AI3zZ9rswp7GRKoKXS1BLUkvPviOqs4YTN1djQIqrXy9k5gEtdLPy86JjRwsNM9tnDcA==}
     engines: {node: '>=0.10.0'}
 
-  hono@4.13.5:
-    resolution: {integrity: sha512-O6+/eCYRkzzzy0rPWwKLiGBR1nFuUPZynnwjxN1MBA62NNqbT0wQEzQyK2gSO5yDIDB336sXQleAhOHrzlYyKw==}
+  hono@4.13.11:
+    resolution: {integrity: sha512-/SMX/RQNJn7oNmFwH6DtwDqcrzZU2otm1FD6OJe2cWF6cfy/F8hq0XVBv7xW3FTJshRQwuBnXHDq2kNsdZnshg==}
     engines: {node: '>=16.9.0'}
 
   hsl-to-hex@1.0.0:
@@ -14683,9 +14683,9 @@ snapshots:
       protobufjs: 7.6.5
       yargs: 17.7.2
 
-  '@hono/node-server@1.19.15(hono@4.13.5)':
+  '@hono/node-server@1.19.15(hono@4.13.11)':
     dependencies:
-      hono: 4.13.5
+      hono: 4.13.11
     optional: true
 
   '@hubspot/api-client@12.0.1(encoding@0.1.13)':
@@ -14749,7 +14749,7 @@ snapshots:
       yargs-parser: 21.1.1
     optionalDependencies:
       '@hubspot/cms-dev-server': 1.0.38(@babel/core@7.24.5)(@types/node@18.11.9)(@types/react-dom@19.1.9(@types/react@19.1.15))(@types/react@19.1.15)(encoding@0.1.13)(prettier@3.6.2)(rollup@2.80.0)(styled-components@6.1.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.27.0)
-      '@modelcontextprotocol/sdk': 1.31.0(zod@4.3.5)
+      '@modelcontextprotocol/sdk': 1.32.0(zod@4.3.5)
     transitivePeerDependencies:
       - '@babel/core'
       - '@cfworker/json-schema'
@@ -15569,9 +15569,9 @@ snapshots:
       - debug
       - supports-color
 
-  '@modelcontextprotocol/sdk@1.31.0(zod@4.3.5)':
+  '@modelcontextprotocol/sdk@1.32.0(zod@4.3.5)':
     dependencies:
-      '@hono/node-server': 1.19.15(hono@4.13.5)
+      '@hono/node-server': 1.19.15(hono@4.13.11)
       ajv: 8.18.0
       ajv-formats: 3.0.1(ajv@8.18.0)
       content-type: 1.0.5
@@ -15581,7 +15581,7 @@ snapshots:
       eventsource-parser: 3.0.6
       express: 5.2.1
       express-rate-limit: 8.5.2(express@5.2.1)
-      hono: 4.13.5
+      hono: 4.13.11
       jose: 6.2.3
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.0
@@ -22380,7 +22380,7 @@ snapshots:
     dependencies:
       parse-passwd: 1.0.0
 
-  hono@4.13.5:
+  hono@4.13.11:
     optional: true
 
   hsl-to-hex@1.0.0:
