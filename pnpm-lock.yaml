@@ -90,7 +90,7 @@ overrides:
   typeorm@0.3: 0.3.31
   uuid@11: 11.1.1
   vite@5: 5.4.21
-  vite@7: 7.3.5
+  vite@7: 7.3.7
   vitest@4: 4.1.11
   ws@7: 7.5.11
   ws@8: 8.21.0
@@ -552,14 +552,14 @@ importers:
         specifier: ^5.4.4
         version: 5.4.4
       vite:
-        specifier: 7.3.5
-        version: 7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)
+        specifier: 7.3.7
+        version: 7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)
       vite-tsconfig-paths:
         specifier: 5.1.4
-        version: 5.1.4(typescript@5.4.4)(vite@7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3))
+        version: 5.1.4(typescript@5.4.4)(vite@7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3))
       vitest:
         specifier: 4.1.11
-        version: 4.1.11(@opentelemetry/api@1.9.0)(@types/node@18.11.9)(happy-dom@18.0.1)(jsdom@27.0.0)(vite@7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3))
+        version: 4.1.11(@opentelemetry/api@1.9.0)(@types/node@18.11.9)(happy-dom@18.0.1)(jsdom@27.0.0)(vite@7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3))
 
   packages/cli:
     dependencies:
@@ -5935,7 +5935,7 @@ packages:
     resolution: {integrity: sha512-2XJVD55d1o5AZous5CCGKS74g/riOj9odEt2bQpCVZeblHyHdnMeFl4jl0XjU21stf4mbjUkew2eXQZt65g5CQ==}
     peerDependencies:
       msw: ^2.4.9
-      vite: 7.3.5
+      vite: 7.3.7
     peerDependenciesMeta:
       msw:
         optional: true
@@ -12762,8 +12762,8 @@ packages:
       terser:
         optional: true
 
-  vite@7.3.5:
-    resolution: {integrity: sha512-KuOaNhcnGFN2zIPGA7wRmzF+lJA1sea7rHq17aiJ++9lzY1WWG6Jpwqwe1KNbRVPIqHmr8GLYx7jbrQcN/7/ww==}
+  vite@7.3.7:
+    resolution: {integrity: sha512-AHEzTORMbi7/7aXp7w7KZ5+DCUdSeLsJz0grY8xHpc9DHdYb0vQu6DqJfm2tOw3gDExNgPgnJTXxM6syYFHaCA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -12818,7 +12818,7 @@ packages:
       '@vitest/ui': 4.1.11
       happy-dom: '*'
       jsdom: '*'
-      vite: 7.3.5
+      vite: 7.3.7
     peerDependenciesMeta:
       '@edge-runtime/vm':
         optional: true
@@ -19391,13 +19391,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.1
 
-  '@vitest/mocker@4.1.11(vite@7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3))':
+  '@vitest/mocker@4.1.11(vite@7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3))':
     dependencies:
       '@vitest/spy': 4.1.11
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)
+      vite: 7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)
 
   '@vitest/pretty-format@2.0.5':
     dependencies:
@@ -27964,13 +27964,13 @@ snapshots:
       - supports-color
     optional: true
 
-  vite-tsconfig-paths@5.1.4(typescript@5.4.4)(vite@7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)):
+  vite-tsconfig-paths@5.1.4(typescript@5.4.4)(vite@7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.4.4)
     optionalDependencies:
-      vite: 7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)
+      vite: 7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -27995,7 +27995,7 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.27.0
 
-  vite@7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3):
+  vite@7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3):
     dependencies:
       esbuild: 0.27.7
       fdir: 6.5.0(picomatch@4.0.4)
@@ -28011,10 +28011,10 @@ snapshots:
       tsx: 4.19.2
       yaml: 2.8.3
 
-  vitest@4.1.11(@opentelemetry/api@1.9.0)(@types/node@18.11.9)(happy-dom@18.0.1)(jsdom@27.0.0)(vite@7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)):
+  vitest@4.1.11(@opentelemetry/api@1.9.0)(@types/node@18.11.9)(happy-dom@18.0.1)(jsdom@27.0.0)(vite@7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)):
     dependencies:
       '@vitest/expect': 4.1.11
-      '@vitest/mocker': 4.1.11(vite@7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3))
+      '@vitest/mocker': 4.1.11(vite@7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3))
       '@vitest/pretty-format': 4.1.11
       '@vitest/runner': 4.1.11
       '@vitest/snapshot': 4.1.11
@@ -28031,7 +28031,7 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.1.1
-      vite: 7.3.5(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)
+      vite: 7.3.7(@types/node@18.11.9)(jiti@2.6.1)(terser@5.27.0)(tsx@4.19.2)(yaml@2.8.3)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
